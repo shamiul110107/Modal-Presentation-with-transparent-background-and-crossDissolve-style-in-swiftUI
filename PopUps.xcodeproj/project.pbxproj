@@ -42,6 +42,7 @@
 		CE21281C24050CEC008C0703 = {
 			isa = PBXGroup;
 			children = (
+				CE6A347524068FA7007B867D /* images */,
 				CE21282724050CEC008C0703 /* PopUps */,
 				CE21282624050CEC008C0703 /* Products */,
 			);
@@ -59,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				CE21282824050CEC008C0703 /* AppDelegate.swift */,
-				CE6A347524068FA7007B867D /* images */,
 				CE21282A24050CEC008C0703 /* SceneDelegate.swift */,
 				CE21282C24050CEC008C0703 /* ContentView.swift */,
 				CE21282E24050CED008C0703 /* Assets.xcassets */,
