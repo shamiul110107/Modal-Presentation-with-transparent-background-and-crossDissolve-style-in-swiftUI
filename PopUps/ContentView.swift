@@ -45,7 +45,7 @@ struct EtcView: View {
     var body: some View {
         VStack {
             List(0...100, id:\.self) { value in
-                Text("do nothings")
+                Text("Swift UI is Really aswesome")
             }
         }.background(Color.red)
     }
@@ -54,26 +54,25 @@ struct EtcView: View {
 struct PopUpView: View {
     
     @State var value = 0.0
-    @Environment(\.presentationMode) var presentationMode
-
+    @Environment(\.viewController) private var viewControllerHolder: UIViewController?
     var body: some View {
         
         VStack(alignment: .center) {
             Circle().frame(width: 156, height: 156).foregroundColor(.gray).padding()
-            Text("You are about to Restore Sami with 643 contacts.").lineLimit(nil).multilineTextAlignment(.center).padding()
+            Text("You are presenting modal view controller with SwiftUI.")
+                .lineLimit(nil)
+                .multilineTextAlignment(.center)
+                .padding()
             
             Button(action: {
-                self.presentationMode.wrappedValue.dismiss()
+               self.viewControllerHolder?.dismiss(animated: true, completion: nil)
             }) {
-                Text("Confirm").padding(.leading, 15).padding(.trailing, 15)
-            }.frame(height: 32).background(Color.orange).padding().foregroundColor(.white)
-                        
-            Button(action: {
-                self.presentationMode.wrappedValue.dismiss()
-            }) {
-                Text("Continue")
-            }.foregroundColor(.black).padding(.bottom)
-        }.background(Color.green).clipShape(RoundedRectangle(cornerRadius: 3.0)).frame(width: UIScreen.main.bounds.size.width - 32)
+                Text("Dismiss")
+            }.foregroundColor(.red)
+                .padding(.bottom)
+            
+        }.background(Color.white).clipShape(RoundedRectangle(cornerRadius: 3.0)).frame(width: UIScreen.main.bounds.size.width - 32)
+        .shadow(radius: 3)
     }
 }
 
@@ -95,7 +94,6 @@ struct ContentView: View {
                 Text("Present me!")
             }
         }
-        
     }
 }
 
