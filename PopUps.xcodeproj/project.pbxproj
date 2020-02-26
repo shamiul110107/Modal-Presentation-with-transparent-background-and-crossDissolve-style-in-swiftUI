@@ -13,7 +13,7 @@
 		CE21282F24050CED008C0703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE21282E24050CED008C0703 /* Assets.xcassets */; };
 		CE21283224050CED008C0703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE21283124050CED008C0703 /* Preview Assets.xcassets */; };
 		CE21283524050CED008C0703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE21283324050CED008C0703 /* LaunchScreen.storyboard */; };
-		CE6A347724068FBA007B867D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A347624068FBA007B867D /* image1.png */; };
+		CE6A3479240691B4007B867D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A3478240691B4007B867D /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		CE21283124050CED008C0703 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE21283424050CED008C0703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE21283624050CED008C0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6A347624068FBA007B867D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		CE6A3478240691B4007B867D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		CE6A347524068FA7007B867D /* images */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A347624068FBA007B867D /* image1.png */,
+				CE6A3478240691B4007B867D /* image1.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE21283524050CED008C0703 /* LaunchScreen.storyboard in Resources */,
-				CE6A347724068FBA007B867D /* image1.png in Resources */,
+				CE6A3479240691B4007B867D /* image1.png in Resources */,
 				CE21283224050CED008C0703 /* Preview Assets.xcassets in Resources */,
 				CE21282F24050CED008C0703 /* Assets.xcassets in Resources */,
 			);
