@@ -14,6 +14,7 @@
 		CE21283224050CED008C0703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE21283124050CED008C0703 /* Preview Assets.xcassets */; };
 		CE21283524050CED008C0703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE21283324050CED008C0703 /* LaunchScreen.storyboard */; };
 		CE6A3479240691B4007B867D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A3478240691B4007B867D /* image1.png */; };
+		CE6A347B2406A12A007B867D /* ModalPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A347A2406A12A007B867D /* ModalPopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE21283424050CED008C0703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE21283624050CED008C0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6A3478240691B4007B867D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		CE6A347A2406A12A007B867D /* ModalPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CE21282824050CEC008C0703 /* AppDelegate.swift */,
 				CE21282A24050CEC008C0703 /* SceneDelegate.swift */,
 				CE21282C24050CEC008C0703 /* ContentView.swift */,
+				CE6A347A2406A12A007B867D /* ModalPopUpView.swift */,
 				CE21282E24050CED008C0703 /* Assets.xcassets */,
 				CE21283324050CED008C0703 /* LaunchScreen.storyboard */,
 				CE21283624050CED008C0703 /* Info.plist */,
@@ -161,6 +164,7 @@
 				CE21282924050CEC008C0703 /* AppDelegate.swift in Sources */,
 				CE21282B24050CEC008C0703 /* SceneDelegate.swift in Sources */,
 				CE21282D24050CEC008C0703 /* ContentView.swift in Sources */,
+				CE6A347B2406A12A007B867D /* ModalPopUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
